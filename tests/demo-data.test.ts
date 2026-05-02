@@ -15,9 +15,9 @@ import {
   setDoneTasks,
   setToolActivity,
   setAutonomy,
+  setAgents,
 } from "@/lib/demo-store";
 import { DEMO_AGENTS } from "@/lib/demo-fixtures";
-import { setAgents } from "@/lib/demo-store";
 import type { MissionTask, ToolActivity } from "@/lib/mission";
 
 const t = (id: string, status: MissionTask["status"]): MissionTask => ({

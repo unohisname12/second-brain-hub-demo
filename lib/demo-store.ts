@@ -71,7 +71,7 @@ export function setAutonomy(a: AutonomyStatus): void {
 }
 
 export function getStoreSnapshot(): StoreSnapshot {
-  return state;
+  return { ...state };
 }
 
 export function getDoneTasks(): MissionTask[] {
