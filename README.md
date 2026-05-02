@@ -5,7 +5,7 @@ my workstation — this is the frontend running on a 90-second scripted timeline
 so you can see what the War Room feels like without any backend, LLM keys, or
 real personal data.
 
-**Live demo:** *(URL will be set after first Vercel deploy)*
+**Live demo:** https://second-brain-hub-demo.vercel.app
 
 **Want to know how the real system actually works?** See [ARCHITECTURE.md](./ARCHITECTURE.md).
 
