@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Github } from "lucide-react";
+import { ArrowRight, GitBranch } from "lucide-react";
 
 const RED = "rgba(232,69,69,1)";
 const RED_SOFT = "rgba(232,69,69,0.08)";
@@ -46,7 +46,7 @@ export function Hero() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-5 py-3 rounded-md border border-border hover:bg-panel transition-colors"
         >
-          <Github className="h-4 w-4" />
+          <GitBranch className="h-4 w-4" />
           View on GitHub
         </Link>
       </div>
