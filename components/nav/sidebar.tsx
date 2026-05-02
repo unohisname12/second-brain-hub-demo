@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, MessageSquare, GraduationCap, Radar } from "lucide-react";
+import { Home, MessageSquare, GraduationCap, Radar, Atom } from "lucide-react";
 
 const links = [
-  { href: "/",         label: "Home",      icon: Home },
-  { href: "/chat",     label: "Chat",      icon: MessageSquare },
-  { href: "/supapara", label: "SupaPara",  icon: GraduationCap },
-  { href: "/mission",  label: "Mission",   icon: Radar },
+  { href: "/",            label: "Home",         icon: Home },
+  { href: "/chat",        label: "Chat",         icon: MessageSquare },
+  { href: "/supapara",    label: "SupaPara",     icon: GraduationCap },
+  { href: "/fallout2d20", label: "Fallout 2d20", icon: Atom },
+  { href: "/mission",     label: "Mission",      icon: Radar },
 ];
 
 export function Sidebar() {
