@@ -1,4 +1,4 @@
-import type { HiveNote, MissionAgent, MissionTask, ToolActivity } from "@/lib/mission";
+import type { HiveNote, MissionAgent } from "@/lib/mission";
 
 export const DEMO_AGENTS: MissionAgent[] = [
   {

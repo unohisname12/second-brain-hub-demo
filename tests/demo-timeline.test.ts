@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from "vitest";
+import { describe, it, expect } from "vitest";
 
 import { phaseAt, type TimelinePhase } from "@/lib/demo-timeline";
 

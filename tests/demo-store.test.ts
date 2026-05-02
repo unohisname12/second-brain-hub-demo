@@ -5,8 +5,6 @@ import {
   getStoreSnapshot,
   setActiveTasks,
   setDoneTasks,
-  setRecentHive,
-  setToolActivity,
   pushToolActivity,
   pushHiveNote,
   setAutonomy,

@@ -93,7 +93,7 @@ export function AutonomyMonitor({
   const activeTask = useMemo(() => {
     if (!autonomy?.active_task_id) return tasks.find((t) => t.status === "live") ?? null;
     return tasks.find((t) => t.id === autonomy.active_task_id) ?? null;
-  }, [autonomy?.active_task_id, tasks]);
+  }, [autonomy, tasks]);
 
   const events = autonomy?.recent_events ?? [];
   const visibleEvents = detail ? events.slice(0, 18) : events.slice(0, 6);
